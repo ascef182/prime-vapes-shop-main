@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "VapesPrime",
+  "description": "Loja especializada em vapes e produtos premium em São Paulo",
+  "url": "https://vapesprime.com.br",
+  "telephone": "+55-11-93415-4811",
+  "email": "vapesprimebh@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Avenida 9 de Julho, 1981",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "addressCountry": "BR",
+    "postalCode": "01313-000"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -23.550520,
+    "longitude": -46.633308
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "22:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "22:00"
+    }
+  ],
+  "priceRange": "$$",
+  "paymentAccepted": [
+    "Credit Card",
+    "Debit Card",
+    "PIX",
+    "Cash"
+  ],
+  "currenciesAccepted": "BRL",
+  "areaServed": {
+    "@type": "City",
+    "name": "São Paulo",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    }
+  }
+} 

@@ -1,0 +1,23 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+Allow: /categoria/
+Allow: /produto/
+Allow: /contato
+
+# Sitemap
+Sitemap: https://vapesprime.com.br/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
